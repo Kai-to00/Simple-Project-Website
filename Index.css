@@ -210,12 +210,3 @@ main p {
             background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
             z-index: 1;
         }
-        
-      
-        @media (min-width: 601px) and (max-width: 900px) {
-            
-        }
-
-        @media (min-width: 901px) {
-            
-        }
