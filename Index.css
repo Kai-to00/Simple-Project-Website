@@ -52,8 +52,8 @@ nav h3:hover {
 }
 
 main {
-            padding: 50px 25px;
-            flex-grow: 1;
+    padding: 50px 25px;
+    flex-grow: 1;
         }
 
         main h5 {
