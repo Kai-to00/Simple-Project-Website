@@ -140,11 +140,11 @@ main p {
     }
 
     main {
-            padding: 50px 100px;
-            flex-grow: 1;
-        }
+        padding: 50px 100px;
+        flex-grow: 1;
+    }
 
-        main h5 {
+    main h5 {
             font-size: 1rem;
             margin-bottom: 20px;
             color: #7f87ff;
