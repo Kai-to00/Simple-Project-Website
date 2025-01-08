@@ -132,9 +132,9 @@ main p {
     nav h3 {
         cursor: none;
         transition: color 0.3s;
-            font-size: 1rem;
-        }
-        
+        font-size: 1rem;
+    }
+    
         nav h3:hover {
             color: white;
         }
