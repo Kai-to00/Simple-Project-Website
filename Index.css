@@ -139,7 +139,7 @@ main p {
         color: white;
     }
 
-        main {
+    main {
             padding: 50px 100px;
             flex-grow: 1;
         }
