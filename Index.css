@@ -198,5 +198,8 @@
             padding: 20px 50px;
         }
         
-        
+    main {
+            padding: 50px 100px;
+            flex-grow: 1;
+        }
 }
