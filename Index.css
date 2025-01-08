@@ -13,6 +13,7 @@ h1 {
     cursor: pointer;
     border: transparent;
     outline: transparent;
-    height: 10vh;
+    height: 20vh;
     width: 10vw;
+    aspect-ratio: 1/1;
 }
