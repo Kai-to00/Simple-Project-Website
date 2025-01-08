@@ -48,7 +48,7 @@ nav button {
     border: none;
     outline: none;
     cursor: none;
-    transition: color 0.7s;
+    transition: color 0.1s;
     font-size: 1rem;
 }
         
