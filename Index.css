@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  box-sizing: border-box;
+  background-color: #0a192f;
 }
 
 body {
