@@ -129,7 +129,7 @@ main p {
         gap: 20px;
     }
 
-    nav h3 {
+    nav button {
         cursor: none;
         transition: color 0.3s;
         font-size: 1rem;
