@@ -124,7 +124,7 @@ main p {
         filter: brightness(0.5);
     }
     
-        nav {
+    nav {
             display: flex;
             gap: 20px;
         }
