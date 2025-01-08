@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #0a199f;
-    height: 7vh;
+    height: 9vh;
     width: 100vw;
 }
 
@@ -26,5 +26,5 @@ header {
     width: 40px;
     transform-origin: top left;
     margin-top: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
