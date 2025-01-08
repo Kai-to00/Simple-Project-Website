@@ -1,11 +1,17 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
     background-color: #0a192f;
 }
 
 header {
     background-color: wheat;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
 }
 
 h1 {
