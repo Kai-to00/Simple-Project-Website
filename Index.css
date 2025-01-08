@@ -133,3 +133,93 @@ main p {
         flex-grow: 1;
     }
 }
+
+        .project-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .project-table td {
+            padding: 10px;
+            padding-bottom: 30px;
+            text-align: center;
+            vertical-align: top;
+            box-sizing: border-box;
+            position: relative; /* Important for absolute positioning of title/desc */
+            overflow: hidden; /* Hide overflowing text */
+        }
+
+        .project-clip {
+            width: 100%;
+            height: auto;
+            border: 1px solid #c0c8ff;
+            border-radius: 5px;
+            box-sizing: border-box;
+            position: relative; /* For absolute positioning of desc */
+            overflow: hidden; /* Prevent gradient from overflowing */
+        }
+
+        .project-clip img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #c0c8ff;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 5px 10px;
+            border-radius: 5px;
+            z-index: 2; /* Ensure title is on top */
+        }
+
+        .project-description {
+            position: absolute;
+            bottom: 10px;
+            left: 30%;
+            transform: translateX(-25%); /* Center horizontally */
+            color: #c0c8ff;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 5px;
+            z-index: 2;
+        }
+
+        .project-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%); /* Center horizontally */
+            width: 100%; /* Ensure full width for gradient */
+            height: 60%; /* Adjust height as needed */
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+            z-index: 1;
+        }
+        
+        
+
+        /* Responsive adjustments (same as before) */
+        @media (max-width: 600px) {
+            .project-table td {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            .project-table td {
+                width: 50%;
+                display: inline-block;
+            }
+        }
+
+        @media (min-width: 901px) {
+            .project-table td {
+                width: 33.33%;
+                display: inline-block;
+            }
+        }
