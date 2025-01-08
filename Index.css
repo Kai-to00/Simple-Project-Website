@@ -212,6 +212,6 @@ main p {
             transform: translateX(-50%); /* Center horizontally */
             width: 100%; /* Ensure full width for gradient */
             height: 60%; /* Adjust height as needed */
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+            backgrouh nd: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
             z-index: 1;
         }
