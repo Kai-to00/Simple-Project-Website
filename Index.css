@@ -15,5 +15,5 @@ h1 {
     outline: transparent;
     height: 20px;
     width: 20px;
-    aspect-ratio: 1/1;
+    /*aspect-ratio: 1/1;*/
 }
