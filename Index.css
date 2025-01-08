@@ -22,7 +22,7 @@ h1 {
     cursor: pointer;
     border: transparent;
     outline: transparent;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     aspect-ratio: 1/1;
 }
