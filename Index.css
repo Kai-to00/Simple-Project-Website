@@ -101,7 +101,7 @@
             border-color: #5d6389;
         }
         
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 7px) {
     header {
             display: flex;
             justify-content: space-between;
