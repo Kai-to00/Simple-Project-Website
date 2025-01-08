@@ -177,8 +177,8 @@ main p {
         width: 220px;
         border: solid;
         border-radius: 10px;
-            border-color: #c0c8ff;
-            outline: transparent;
+        border-color: #c0c8ff;
+        outline: transparent;
             margin-left: 20px;
             transition: border-color 0.2s ease;
             transition: color 0.2s ease;
