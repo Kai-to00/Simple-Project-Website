@@ -32,8 +32,8 @@ header {
     background-color: transparent;
 }
 
-        #logo_btn:active {
-            filter: brightness(0.5);
+#logo_btn:active {
+    filter: brightness(0.5);
         }
         
         nav {
