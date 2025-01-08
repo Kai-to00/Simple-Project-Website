@@ -45,13 +45,13 @@ nav h3 {
     cursor: none;
     transition: color 0.3s;
     font-size: 1rem;
-        }
+}
         
-        nav h3:hover {
-            color: white;
-        }
+nav h3:hover {
+    color: white;
+}
 
-        main {
+main {
             padding: 50px 25px;
             flex-grow: 1;
         }
