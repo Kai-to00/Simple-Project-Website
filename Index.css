@@ -136,6 +136,11 @@ main p {
         padding: 50px 300px;
         flex-grow: 1;
     }
+    
+    .project-table td {
+                width: 33.33%;
+                display: inline-block;
+            }
 }
 
 #projects {
