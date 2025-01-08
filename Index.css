@@ -27,5 +27,5 @@ header {
     transform-origin: top left;
     margin-top: 10px;
     margin-left: 5px;
-    f
+    filter: brightness();
 }
