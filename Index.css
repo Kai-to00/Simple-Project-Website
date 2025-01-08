@@ -22,7 +22,7 @@ header {
 }
 
 #logo_btn {
-    background-image: url("Images/Icons/bz_icon.png");
+    background-image: url("../Images/Icons/bz_icon.png");
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
@@ -154,12 +154,12 @@ main p {
         }
 
         .project-table td {
-            display: block;
-            width: 100%;
+            
+           
             padding: 10px;
             padding-bottom: 30px;
             text-align: center;
-            /*vertical-align: top;*/
+            vertical-align: top;
             box-sizing: border-box;
             position: relative; /* Important for absolute positioning of title/desc */
             overflow: hidden; /* Hide overflowing text */
@@ -214,4 +214,11 @@ main p {
             height: 60%; /* Adjust height as needed */
             background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
             z-index: 1;
+        }
+        
+        @media (max-width: 600px) {
+            .project-table td {
+                display: block;
+                width: 100%;
+            }
         }
