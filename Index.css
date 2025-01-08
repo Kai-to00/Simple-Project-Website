@@ -27,6 +27,6 @@ header {
     transform-origin: top left;
     margin-top: 10px;
     margin-left: 5px;
-    cursor-
+    cursor-event: none;
     transition: filter 0.2s ease;
 }
