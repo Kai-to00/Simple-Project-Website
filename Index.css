@@ -30,6 +30,7 @@ header {
     height: 50px;
     cursor: none;
     background-color: transparent;
+    transition: filter 0.5s;
 }
 
 #logo_btn:active {
@@ -47,7 +48,7 @@ nav button {
     border: none;
     outline: none;
     cursor: none;
-    transition: color 0.3s;
+    transition: color 0.1s;
     font-size: 1rem;
 }
         
@@ -85,7 +86,7 @@ main p {
     color: #696d8d;
 }
 
-#lets-go {
+#lets-go-btn {
     cursor: none;
     background-color: transparent;
     font-size: 1rem;
@@ -100,7 +101,7 @@ main p {
     transition: color 0.2s ease;
 }
 
-#lets-go:active {
+#lets-go-btn:active {
     color: #5d6389;
     border-color: #5d6389;
 }
