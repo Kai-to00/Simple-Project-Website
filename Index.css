@@ -162,7 +162,7 @@ main p {
     z-index: 2;
     max-width: 100%; /* Prevents the description from becoming too wide */
     box-sizing: border-box; /* Include padding and border in width calculation */
-    word-wrap: br; /* Allows long words to break */
+    word-wrap: break-word; /* Allows long words to break */
 }
 
 .project-gradient {
