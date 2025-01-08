@@ -42,7 +42,7 @@ nav {
 }
 
 nav button {
-    font
+    font-weight: s;
     background-color: transparent;
     border: none;
     outline: none;
