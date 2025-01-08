@@ -160,11 +160,10 @@ main p {
     background-color: rgba(0, 0, 0, 0.6); /* Added a semi-transparent background for better readability */
     border-radius: 5px;
     z-index: 2;
-    max-width: 90%; /* Prevents the description from becoming too wide */
+    max-width: 100%; /* Prevents the description from becoming too wide */
     box-sizing: border-box; /* Include padding and border in width calculation */
     word-wrap: break-word; /* Allows long words to break */
 }
-
 
 .project-gradient {
     position: absolute;
