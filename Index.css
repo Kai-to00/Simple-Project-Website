@@ -92,9 +92,9 @@ main p {
     border-color: #c0c8ff;
     outline: transparent;
     margin-left: 20px;
-            transition: border-color 0.2s ease;
-            transition: color 0.2s ease;
-        }
+    transition: border-color 0.2s ease;
+    transition: color 0.2s ease;
+}
         
         #lets-go:active {
             color: #5d6389;
