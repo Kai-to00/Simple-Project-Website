@@ -30,7 +30,7 @@ header {
     height: 50px;
     cursor: none;
     background-color: transparent;
-        }
+}
         
         #logo_btn:active {
             filter: brightness(0.5);
