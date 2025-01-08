@@ -179,10 +179,10 @@ main p {
         border-radius: 10px;
         border-color: #c0c8ff;
         outline: transparent;
-            margin-left: 20px;
-            transition: border-color 0.2s ease;
-            transition: color 0.2s ease;
-        }
+        margin-left: 20px;
+        transition: border-color 0.2s ease;
+        transition: color 0.2s ease;
+    }
         
         #lets-go:active {
             color: #5d6389;
