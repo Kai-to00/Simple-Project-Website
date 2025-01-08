@@ -30,6 +30,6 @@ header {
     transition: filter 0.2s ease;
 }
 
-#logo_btn:hover {
+#logo_btn:active {
     filter: brightness(0.5);
 }
