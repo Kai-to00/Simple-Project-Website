@@ -109,27 +109,6 @@ main p {
         padding: 20px 50px;
     }
     
-    #logo_btn {
-        background-image: url("Images/Icons/bz_icon.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        border: none;
-        width: 50px;
-        height: 50px;
-        cursor: none;
-        background-color: transparent;
-    }
-    
-    #logo_btn:active {
-        filter: brightness(0.5);
-    }
-    
-    nav {
-        display: flex;
-        gap: 20px;
-    }
-
-    nav button {
         cursor: none;
         transition: color 0.3s;
         font-size: 1rem;
