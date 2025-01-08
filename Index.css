@@ -41,7 +41,7 @@ nav {
     gap: 20px;
 }
 
-        nav h3 {
+nav h3 {
             cursor: none;
             transition: color 0.3s;
             font-size: 1rem;
