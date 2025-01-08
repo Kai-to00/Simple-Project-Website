@@ -184,8 +184,8 @@ main p {
         transition: color 0.2s ease;
     }
         
-        #lets-go:active {
-            color: #5d6389;
+    #lets-go:active {
+        color: #5d6389;
             border-color: #5d6389;
         }
 }
