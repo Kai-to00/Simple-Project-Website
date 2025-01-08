@@ -1,5 +1,5 @@
- /* Basic reset and font */
- * {
+/* Basic reset and font */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,21 +14,20 @@ body {
     min-height: 100vh;
 }
 
+/* Header styles */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 25px;
+    padding: 20px 25px; /* Default padding */
 }
 
 #logo_btn {
-    background-image: url("../Images/Icons/bz_icon.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url("../Images/Icons/bz_icon.png") no-repeat center/contain; /* Shorthand background */
     border: none;
     width: 50px;
     height: 50px;
-    cursor: none;
+    cursor: default; /* Changed to default as cursor: none is generally bad UX */
     background-color: transparent;
     transition: filter 0.5s;
 }
@@ -44,20 +43,21 @@ nav {
 
 nav button {
     font-weight: bold;
-    background-color: transparent;
+    background: none; /* Shorthand background */
     border: none;
     outline: none;
-    cursor: none;
+    cursor: default; /* Changed to default as cursor: none is generally bad UX */
     transition: color 0.1s;
     font-size: 1rem;
 }
-        
+
 nav button:active {
     color: white;
 }
 
+/* Main Content Styles */
 main {
-    padding: 50px 25px;
+    padding: 50px 25px; /* Default padding */
     flex-grow: 1;
 }
 
@@ -87,18 +87,16 @@ main p {
 }
 
 #lets-go-btn {
-    cursor: none;
-    background-color: transparent;
+    cursor: default; /* Changed to default as cursor: none is generally bad UX */
+    background: none; /* Shorthand background */
     font-size: 1rem;
     height: 50px;
     width: 220px;
-    border: solid;
+    border: 1px solid #c0c8ff; /* Shorthand border */
     border-radius: 10px;
-    border-color: #c0c8ff;
-    outline: transparent;
+    outline: none;
     margin-left: 20px;
-    transition: border-color 0.2s ease;
-    transition: color 0.2s ease;
+    transition: border-color 0.2s ease, color 0.2s ease; /* Combined transitions */
 }
 
 #lets-go-btn:active {
@@ -106,119 +104,96 @@ main p {
     border-color: #5d6389;
 }
 
-@media only screen and (min-width: 768px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 50px;
-    }
-    
-    main {
-        padding: 50px 100px;
-        flex-grow: 1;
-    }
-    
-    .project-table td {
-        width: 50%;
-        display: inline-block;
-    }
-}
-
-@media only screen and (min-width: 1100px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 50px;
-    }    
-    main {
-        padding: 50px 300px;
-        flex-grow: 1;
-    }
-    
-    .project-table td {
-        width: 33.33%;
-        display: inline-block;
-    }
-}
-
+/* Project Table Styles */
 #projects {
-    color: #c0c8ff;
     margin-top: 200px;
 }
 
-        .project-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
-        .project-table td {
-            
-           
-            padding: 10px;
-            padding-bottom: 30px;
-            text-align: center;
-            vertical-align: top;
-            box-sizing: border-box;
-            position: relative; /* Important for absolute positioning of title/desc */
-            overflow: hidden; /* Hide overflowing text */
-        }
+.project-table td {
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
 
-        .project-clip {
-            width: 100%;
-            height: auto;
-            border: 1px solid #c0c8ff;
-            border-radius: 5px;
-            box-sizing: border-box;
-            position: relative; /* For absolute positioning of desc */
-            overflow: hidden; /* Prevent gradient from overflowing */
-        }
+.project-clip {
+    width: 100%;
+    height: auto;
+    border: 1px solid #c0c8ff;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
-        .project-clip img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
+.project-clip img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
-        .project-title {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            color: #c0c8ff;
-            font-weight: bold;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-            padding: 5px 10px;
-            border-radius: 5px;
-            z-index: 2; /* Ensure title is on top */
-        }
+.project-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #c0c8ff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2;
+}
 
-        .project-description {
-            position: absolute;
-            bottom: 10px;
-            left: 30%;
-            transform: translateX(-25%); /* Center horizontally */
-            color: #c0c8ff;
-            font-weight: bold;
-            text-align: center;
-            padding: 1px 5px;
-            z-index: 2;
-        }
+.project-description {
+    position: absolute;
+    bottom: 10px;
+    left: 50%; /* Changed to 50% for proper centering with transform */
+    transform: translateX(-50%);
+    color: #c0c8ff;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px 5px;
+    z-index: 2;
+}
 
-        .project-gradient {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%); /* Center horizontally */
-            width: 100%; /* Ensure full width for gradient */
-            height: 60%; /* Adjust height as needed */
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-            z-index: 1;
-        }
-        
-        @media (max-width: 600px) {
-            .project-table td {
-                display: block;
-                width: 100%;
-            }
-        }
+.project-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Changed to 0 and width to 100% for proper gradient */
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 1;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    header, main {
+        padding: 20px 50px;
+    }
+    .project-table td {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1100px) {
+    main {
+        padding: 50px 100px;
+    }
+    .project-table td {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-table td {
+        display: block;
+        width: 100%;
+    }
+}
