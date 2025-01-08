@@ -109,8 +109,8 @@ main p {
         padding: 20px 50px;
     }
 
-        #logo_btn {
-            background-image: url("Images/Icons/bz_icon.png");
+    #logo_btn {
+        background-image: url("Images/Icons/bz_icon.png");
             background-size: contain;
             background-repeat: no-repeat;
             border: none;
