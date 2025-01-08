@@ -35,7 +35,7 @@ header {
 #logo_btn:active {
     filter: brightness(0.5);
 }
-        
+
 nav {
             display: flex;
             gap: 20px;
