@@ -114,10 +114,6 @@ main p {
         font-size: 1rem;
     }
     
-    nav h3:hover {
-        color: white;
-    }
-
     main {
         padding: 50px 100px;
         flex-grow: 1;
