@@ -109,11 +109,6 @@ main p {
         padding: 20px 50px;
     }
     
-        cursor: none;
-        transition: color 0.3s;
-        font-size: 1rem;
-    }
-    
     main {
         padding: 50px 100px;
         flex-grow: 1;
