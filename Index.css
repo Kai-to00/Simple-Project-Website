@@ -1,3 +1,7 @@
+html {
+    
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +28,6 @@ h1 {
     outline: transparent;
     height: 40px;
     width: 40px;
-    transform-origin: top l;
+    transform-origin: top left;
     aspect-ratio: 1/1;
 }
