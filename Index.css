@@ -101,7 +101,7 @@
             border-color: #5d6389;
         }
         
-@media only screen and () {
+@media only screen and (678) {
     header {
             display: flex;
             justify-content: space-between;
