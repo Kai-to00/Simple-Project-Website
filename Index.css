@@ -126,7 +126,6 @@ main p {
         justify-content: space-between;
         align-items: center;
         padding: 20px 50px;
-    }
         
     main {
         padding: 50px 300px;
@@ -136,7 +135,7 @@ main p {
 
 #projects {
     color: #c0c8ff;
-    margin: ;
+    margin-top: ;
 }
 
         .project-table {
