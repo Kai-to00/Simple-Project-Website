@@ -208,10 +208,7 @@ main p {
         
       
         @media (min-width: 601px) and (max-width: 900px) {
-            .project-table td {
-                width: 50%;
-                display: inline-block;
-            }
+            
         }
 
         @media (min-width: 901px) {
