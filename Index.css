@@ -24,6 +24,6 @@ h1 {
     outline: transparent;
     height: 40px;
     width: 40px;
-    box-align: r;
+    box-align: ri;
     aspect-ratio: 1/1;
 }
