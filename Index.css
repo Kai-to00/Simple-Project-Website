@@ -19,7 +19,7 @@ header {
     background-color: transparent;
     background-image: url('Images/Icons/bz_icon.png');
     background-size: cover;
-    cursor: pointer;
+    cursor: none;
     border: transparent;
     outline: transparent;
     height: 40px;
@@ -27,6 +27,7 @@ header {
     transform-origin: top left;
     margin-top: 10px;
     margin-left: 5px;
-    cursor-event: none;
     transition: filter 0.2s ease;
 }
+
+.
