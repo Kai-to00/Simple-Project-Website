@@ -138,9 +138,9 @@ main p {
     }
     
     .project-table td {
-                width: 33.33%;
-                display: inline-block;
-            }
+        width: 33.33%;
+        display: inline-block;
+    }
 }
 
 #projects {
