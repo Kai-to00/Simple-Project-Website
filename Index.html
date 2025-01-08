@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="Images/Icons/bz_icon.png">
-    <link rel="stylesheet" href="Index.css">
-    <title>BizWiz Project Showcase</title> 
-</head>
+    <title>BizWiz Project Showcase</title>
+    <style>
+        /* Basic reset and font */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace; /* Use a monospace font */
+            color: #c0c8ff; /* Light blue text */
+        }
 
+        body {
+            background-color: #0d1117; /* Dark background */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between; /* Align logo and nav */
+            align-items: center;
+            padding: 20px 50px; /* Add padding */
+        }
+
+        #logo_btn {
+            background-image: url("Images/Icons/bz_icon.png"); /* Set logo image */
+            background-size: contain;
+            background-repeat: no-repeat;
+            border: none;
+            width: 50px; /* Adjust size as needed */
+            height: 50px;
+            cursor: pointer;
+            background-color: transparent;
+
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav h3 {
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        nav h3:hover {
+            color: white;
+        }
+
+        main {
+            padding: 100px 50px;
+            flex-grow: 1; /* Allow main to take up remaining space */
+        }
+
+        main h5 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #7f87ff;
+        }
+
+        main h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        main h3 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+
+        main p {
+            font-size: 1rem;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+        /*Responsive*/
+        @media (max-width: 768px) {
+            header{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+            main{
+                padding: 50px 25px;
+            }
+            main h2{
+                font-size: 2rem;
+            }
+            main h3{
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
 <body>
     <header>
         <button id="logo_btn"></button>
-        
         <nav>
             <h3>Home</h3>
             <h3>Projects</h3>
@@ -23,7 +115,7 @@
         <h5>Hi, my name is</h5>
         <h2>Joel Refuerzo.</h2>
         <h3>I make experiences a fun place.</h3>
-        <p>I am a Luau scripter, specialized in server and client scripting with 1﻿+ year of experience on Roblox Game development.</p>
+        <p>I am a Luau scripter, specialized in server and client scripting with 1+ year of experience on Roblox Game development.</p>
     </main>
 </body>
 </html>
