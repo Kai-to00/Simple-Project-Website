@@ -120,9 +120,9 @@ main p {
     }
     
     .project-table td {
-                width: 50%;
-                display: inline-block;
-            }
+        width: 50%;
+        display: inline-block;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
