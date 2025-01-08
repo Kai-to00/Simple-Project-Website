@@ -134,6 +134,10 @@ main p {
     }
 }
 
+h1 {
+            color: #c0c8ff;
+        }
+
         .project-table {
             width: 100%;
             border-collapse: collapse;
