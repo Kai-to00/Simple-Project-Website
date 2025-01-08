@@ -30,7 +30,7 @@ header {
     height: 50px;
     cursor: none;
     background-color: transparent;
-    transition: filter 1s;
+    transition: filter 0.7s;
 }
 
 #logo_btn:active {
