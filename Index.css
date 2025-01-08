@@ -159,7 +159,7 @@ main p {
             padding: 10px;
             padding-bottom: 30px;
             text-align: center;
-            vertical-align: top;
+            /*vertical-align: top;*/
             box-sizing: border-box;
             position: relative; /* Important for absolute positioning of title/desc */
             overflow: hidden; /* Hide overflowing text */
