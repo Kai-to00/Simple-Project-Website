@@ -186,8 +186,8 @@ main p {
         
     #lets-go:active {
         color: #5d6389;
-            border-color: #5d6389;
-        }
+        border-color: #5d6389;
+        
 }
 
 @media only screen and (min-width: 1100px) {
