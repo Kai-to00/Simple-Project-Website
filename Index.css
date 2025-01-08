@@ -150,7 +150,7 @@ main p {
 }
 .project-description {
     position: absolute;
-    bottom: 10px; /* Distance from the bottom of the image */
+    bottom: 50px; /* Distance from the bottom of the image */
     left: 50%;
     transform: translateX(-50%);
     color: #c0c8ff;
