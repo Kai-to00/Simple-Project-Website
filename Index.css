@@ -31,5 +31,5 @@ header {
 }
 
 #logo_btn:hover {
-    
+    filter: brightness(0.5);
 }
