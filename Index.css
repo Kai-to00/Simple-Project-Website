@@ -15,10 +15,6 @@ header {
     width: 100vw;
 }
 
-h1 {
-    color: #64ffda;
-}
-
 #logo_btn {
     background-color: transparent;
     background-image: url('Images/Icons/bz_icon.png');
