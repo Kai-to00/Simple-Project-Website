@@ -30,4 +30,6 @@ header {
     transition: filter 0.2s ease;
 }
 
-#logo_btn:onc
+#logo_btn:hover {
+    
+}
