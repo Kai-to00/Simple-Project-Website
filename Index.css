@@ -47,7 +47,7 @@ nav button {
     font-size: 1rem;
 }
         
-nav button:click {
+nav button:active {
     color: white;
 }
 
