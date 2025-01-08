@@ -126,7 +126,7 @@ main p {
         justify-content: space-between;
         align-items: center;
         padding: 20px 50px;
-        
+    }    
     main {
         padding: 50px 300px;
         flex-grow: 1;
