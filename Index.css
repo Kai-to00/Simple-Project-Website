@@ -7,7 +7,8 @@ h1 {
 }
 
 #btn_logo {
-    
+    height: 1vh;
+    width: 1vw;
 }
 #logo_btn {
     background-color: transparent;
