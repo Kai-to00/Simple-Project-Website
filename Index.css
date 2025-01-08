@@ -8,7 +8,7 @@ h1 {
 
 #logo_btn {
     background-image: url('Images/Icons/bz_icon.png');
-    background-size: co;
+    background-size: cover;
     border: transparent;
     outline: transparent;
     height: 10vh;
