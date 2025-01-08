@@ -18,10 +18,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-            padding: 20px 25px;
-        }
+    padding: 20px 25px;
+}
 
-        #logo_btn {
+#logo_btn {
             background-image: url("Images/Icons/bz_icon.png");
             background-size: contain;
             background-repeat: no-repeat;
