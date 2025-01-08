@@ -5,9 +5,9 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     color: #c0c8ff;
-        }
+}
 
-        body {
+body {
             background-color: #0d1117;
             display: flex;
             flex-direction: column;
