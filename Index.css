@@ -71,12 +71,12 @@ main h2 {
 main h3 {
     font-size: 2rem;
     margin-bottom: 20px;
-        }
+}
 
-        main p {
-            font-size: 1rem;
-            line-height: 1.6;
-            max-width: 600px;
+main p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
             margin-bottom: 20px;
             color: #696d8d;
         }
