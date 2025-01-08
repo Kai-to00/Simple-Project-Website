@@ -47,7 +47,7 @@ nav button {
     font-size: 1rem;
 }
         
-nav h3:hover {
+nav button:hover {
     color: white;
 }
 
