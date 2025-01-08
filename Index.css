@@ -206,16 +206,7 @@ main p {
             z-index: 1;
         }
         
-        
-
-        /* Responsive adjustments (same as before) */
-        @media (max-width: 600px) {
-            .project-table td {
-                display: block;
-                width: 100%;
-            }
-        }
-
+      
         @media (min-width: 601px) and (max-width: 900px) {
             .project-table td {
                 width: 50%;
