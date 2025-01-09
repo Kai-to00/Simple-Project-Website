@@ -165,7 +165,7 @@ main p {
     position: absolute;
     bottom: 5px; /* Adjusted to 5px for better placement */
     left: 30%;
-    transform: translateX(-50%);
+    transform: translateX(-25%);
     color: #c0c8ff;
     font-weight: bold;
     text-align: center;
