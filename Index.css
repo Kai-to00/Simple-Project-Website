@@ -60,7 +60,7 @@ main {
     margin-top: 50px;
     padding: 50px 25px; /* Default padding */
     flex-grow: 1;
-    background-image: url('');
+    background-image: url('../Images/Icons/bz_icon.png');
 }
 
 main h5 {
