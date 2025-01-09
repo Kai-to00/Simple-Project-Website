@@ -57,6 +57,7 @@ nav button:active {
 
 /* Main Content Styles */
 main {
+    margin: 100px;
     padding: 50px 25px; /* Default padding */
     flex-grow: 1;
 }
