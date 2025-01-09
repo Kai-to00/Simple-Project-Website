@@ -163,7 +163,7 @@ main p {
 
 .project-description {
     position: absolute;
-    bottom: 5px; /* Adjusted to 10px for better placement */
+    bottom: 5px; /* Adjusted to 5px for better placement */
     left: 50%;
     transform: translateX(-50%);
     color: #c0c8ff;
