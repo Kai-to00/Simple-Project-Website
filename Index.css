@@ -164,7 +164,7 @@ main p {
 .project-description {
     position: absolute;
     bottom: 5px; /* Adjusted to 5px for better placement */
-    left: 20%;
+    left: 15%;
     transform: translateX(-15%);
     color: #c0c8ff;
     font-weight: bold;
