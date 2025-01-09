@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-image: url('Images/Icons/lua-1.png');
-    background-size:50%; 
+    background-size:100%; 
     background-position: right -70px center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -206,12 +206,6 @@ main p {
 }
 
 @media (max-width: 600px) {
-    body {
-        background-size:100%; 
-        /*background-position: right -100px center; */
-    
-    }
-    
     .project-table td {
         display: block;
         width: 100%;
