@@ -179,9 +179,6 @@ main p {
     word-wrap: break-word;
 }
 
-/* ... (rest of your CSS) */
-
-
 /* Media Queries */
 @media (min-width: 768px) {
     header, main {
